@@ -141,6 +141,16 @@ void input()
 
 int main()
 {
+
+    // Erstelle Datei, falls sie nicht existiert
+    FILE *file = fopen(FILE_NAME, "w");
+    if (file == NULL)
+    {
+        perror("fopen");
+        exit(EXIT_FAILURE);
+    }
+    fclose(file);
+
     printf("*Communication test (exit with CTRL+C)\n");
     pid_t pid = fork();
 

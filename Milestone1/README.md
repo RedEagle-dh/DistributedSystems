@@ -9,11 +9,11 @@
   * MatrNr: 1441651
   * FdNr: fdai7519
 * Jannik Schmitt
-  * MatrNr
-  * FdNr: 
+  * MatrNr: 1427251
+  * FdNr: fdai7394
 * Julia Kunze
-  * MatrNr
-  * FdNr: 
+  * MatrNr: 1435573
+  * FdNr: fdai7452
 
 ## Files
 
@@ -25,7 +25,6 @@
 ## Compiling
 
 Es sind keine weiteren Schritte zum kompilieren nötig. 
-Für `ProcessFile.c` wird jedoch eine Datei Namens `change.txt` benötigt die vorher im gleichen Directory angelegt werden muss.
 
 Zum kompilieren von z.B. `ProcessFile.c` folgendes ausführen:
 
